@@ -1,0 +1,213 @@
+html {
+    min-width: 1000px;
+    background: #f8f6f7;
+    margin-bottom: 5em;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.site-largura {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.num1 {
+    color: #f35926;
+    font-size: 2em;
+}
+
+.num2 {
+    color: #fcb929;
+    font-size: 2em;
+}
+
+.num3 {
+    color: #00b049;
+    font-size: 2em;
+}
+.menu-topo{
+    background-color: white; 
+    position: fixed;
+    padding: 1px;
+    width: 100%;
+}
+
+.menu-topo-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.menu-topo-esquerda
+.menu-topo-direita{
+    flex: 2;
+}
+
+.menu-topo-direita {
+    word-spacing: 4em;
+}
+
+.menu-topo-esquerda{
+    font-weight: 600;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: x-large;
+       
+}
+
+form {
+    height: 120px;
+    padding: 25px;
+    border-radius: 15px;
+	font-size: 18px;
+    background-color: white;
+    position: relative;
+    top: 4em;  
+}
+
+.bloco-formulario{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    justify-content: space-between;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    border: 1.5px solid #747373;
+    font-size: 18px;
+    padding-left: 5px;
+    border-radius: 2px;
+}
+
+.caixa-resposta{
+    width: 185px;
+    height: 30px;  
+}
+
+::placeholder{
+    color:#747373;
+    font-weight: lighter;
+}
+
+header {
+    background-image: url('../img/barcos.webp');
+    background-size: cover;
+    background-position: center center;
+    height: 393px;
+}
+
+#botao-formulario{
+    width: 180px;
+    height: 30px;
+    background-color: #ea3d35;
+    color: white;
+    border: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+main > h2{
+    margin-top: 2rem;    
+}
+
+.box-cidades{
+    display: grid;
+    grid-template-columns: repeat(4,227px);
+    grid-template-rows: auto;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.box-cidades div{
+    width: 100%;
+    height: 210px;
+    padding: 26px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 3px black;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    justify-content: space-evenly;
+
+}
+
+.nome-cidade{
+    font-size: 18px;
+    text-align: center;
+}
+
+.botao-cidade {
+    border-radius: 35px;
+    font-size: 14px;
+    width: 150px; 
+    box-shadow: 0px 0px 7px 1px black;
+}
+
+article {
+    color: white;
+}
+
+.valor {
+    font-size: 2em;
+    text-align: center;
+}
+
+.rio-janeiro{
+    background-image: url(../img/rio.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.bonito {
+    background-image: url(../img/bonito.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.sao-paulo {
+    background-image: url(../img/sao-paulo.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.foz-iguaçu {
+    background-image: url(../img/foz.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.maceio {
+    background-image: url(../img/maceio.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.salvador {
+    background-image: url(../img/salvador.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.fortaleza {
+    background-image: url(../img/fortaleza.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.belo-horizonte {
+    background-image: url(../img/belo-horizonte.webp);
+    background-size: cover;
+    background-position: center;
+}
