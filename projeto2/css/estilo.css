@@ -25,6 +25,7 @@ html {
     color: #00b049;
     font-size: 2em;
 }
+
 .menu-topo{
     background-color: white; 
     position: fixed;
@@ -36,11 +37,6 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-}
-
-.menu-topo-esquerda
-.menu-topo-direita{
-    flex: 2;
 }
 
 .menu-topo-direita {
@@ -56,8 +52,7 @@ html {
 h2 {
     margin-bottom: 1rem;
     font-weight: 600;
-    font-size: x-large;
-       
+    font-size: x-large; 
 }
 
 form {
@@ -70,13 +65,13 @@ form {
     top: 4em;  
 }
 
-.bloco-formulario{
+.bloco-formulario {
     display: grid;
     grid-template-columns: repeat(5,auto);
     justify-content: space-between;
 }
 
-input{
+input {
     width: 100%;
     height: 30px;
     border: 1.5px solid #747373;
@@ -85,12 +80,12 @@ input{
     border-radius: 2px;
 }
 
-.caixa-resposta{
+.caixa-resposta {
     width: 185px;
     height: 30px;  
 }
 
-::placeholder{
+::placeholder {
     color:#747373;
     font-weight: lighter;
 }
@@ -102,7 +97,7 @@ header {
     height: 393px;
 }
 
-#botao-formulario{
+#botao-formulario {
     width: 180px;
     height: 30px;
     background-color: #ea3d35;
@@ -121,7 +116,7 @@ main > h2{
     margin-top: 2rem;    
 }
 
-.box-cidades{
+.box-cidades {
     display: grid;
     grid-template-columns: repeat(4,227px);
     grid-template-rows: auto;
@@ -129,7 +124,7 @@ main > h2{
     column-gap: 30px;
 }
 
-.box-cidades div{
+.box-cidades div {
     width: 100%;
     height: 210px;
     padding: 26px;
@@ -140,10 +135,9 @@ main > h2{
     display: grid;
     grid-template-rows: repeat(3, auto);
     justify-content: space-evenly;
-
 }
 
-.nome-cidade{
+.nome-cidade {
     font-size: 18px;
     text-align: center;
 }
@@ -165,7 +159,7 @@ article {
     text-align: center;
 }
 
-.rio-janeiro{
+.rio-janeiro {
     background-image: url(../img/rio.webp);
     background-size: cover;
     background-position: center;
